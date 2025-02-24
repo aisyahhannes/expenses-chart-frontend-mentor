@@ -76,5 +76,5 @@ console.log("SVG position:", rect);
 
 ### Useful resources
 
-- [Scrimba d3.js](https://v1.scrimba.com/learn/d3js\) - Making bar chart with D3.js
+- [Scrimba d3.js](https://v1.scrimba.com/learn/d3js) - Making bar chart with D3.js
 - [Medium](https://dizzpy.medium.com/how-to-connect-html-with-json-using-javascript-a-beginners-guide-25e94306fa0f) - Connecting JSON with HTML using JavaScript
