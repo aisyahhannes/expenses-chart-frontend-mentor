@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --soft_red: #ec775f;
+    --cyan: #76b5bc;
+    --dark_brown: #382314;
+    --medium_brown: #93867b;
+    --cream: #f8e9dd;
+    --pale_orange: #fffaf5;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--cream);
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans';
+    margin: 0;
+}
+
+main {
+    display: grid;
+    gap: 20px;
+}
+
+/* Heading */
+h1 {
+    margin: 0;
+    font-size: 30px;
+    color: var(--dark_brown);
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    color: var(--dark_brown);
+}
+
+h3 {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h4 {
+    margin: 0;
+    font-size: 15px;
+    color: var(--dark_brown);
+}
+
+.spends label {
+    color: var(--medium_brown);
+    font-size: 16px;
+}
+
+/* Classes */
+.balance {
+    display: flex;
+    background-color: #ec775f;
+    color: var(--pale_orange);
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+img {
+    width: 50px;
+}
+
+svg {
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.spends {
+    background-color: var(--pale_orange);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--cream);
+    margin-bottom: 20px;
+}
+
+.price {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 10px;
+    gap: 100px;
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    svg {
+        width: 300px;
+        height: 150px;
+        margin: 0;
+    }
+
+    .spends {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+}

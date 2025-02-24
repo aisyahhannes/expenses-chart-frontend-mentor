@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+  <main>
+    <section class="balance">
+      <div>
+        <label for="balance">My balance</label>
+        <h3 id="balance">$921.48</h3>
+      </div>
+      <img src="images/logo.svg">
+    </section>
+    <section class="spends">
+      <h2>Spending - Last 7 days</h2>
+      <svg id="bar-graph"></svg>
+      <hr>
+      <label for="total">Total this month</label>
+      <article class="price">
+        <div>
+          <h1 id="total">$478.33</h1>
+        </div>
+        <div>
+          <h4 id="percentage">+2.4%</h4>
+          <label for="percentage">from last month</label>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
